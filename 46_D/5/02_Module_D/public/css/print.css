@@ -1,0 +1,80 @@
+
+.table_style1 th{
+	background-color: #036;
+	border: 1px #000 solid;
+	color: #999;
+}
+.table_style1 td{
+	background-color: #069;
+	border: 1px #000 solid;
+}
+.pagination{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.pagination li{
+	display: inline-block;
+}
+.pagination li.active{
+	font-size: 1.5em;
+}
+#v_code{
+	display: none;
+	position: fixed;
+	background-color: #fff;
+	padding: 10px;
+	top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+#v_code.show{
+	display: inline-block;
+}
+.v_box{
+	display: inline-block;
+	position: relative;
+	width: 100px;
+	height: 100px;
+}
+.v_box div{
+	height: 100px;
+	width: 100px;
+}
+.v_box div.checked{
+	transform: scale(0.7);
+}
+.v_box div:hover{
+	border: 2px #f00 solid;
+}
+.v_check{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 25px;
+	height: 25px;
+	z-index: 2;
+}
+.v_check.checked{
+	display: block;
+}
+#v_title{
+	height: 100px;
+	width: 100%;
+	background-color: #07e;
+	margin-bottom: 5px;
+	padding: 10px 0;
+}
+#v_title p{
+	margin: 0;
+	color: #fff;
+	font-size: 18px;
+}
+#v_footer{
+	position: relative;
+}
+#v_message{
+	color: #f00;
+	font-size: 18px;
+}

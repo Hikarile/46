@@ -1,0 +1,135 @@
+ul{
+	padding: 0;
+	margin: 0;
+}
+.data_table, .data_table td, .data_table th{
+	border: #036 5px solid;
+}
+.data_table th{
+	background-color: #069;	
+}
+.data_table td{
+	background-color: #ccf;	
+}
+.pagination{
+	text-align: center;
+}
+.pagination li{
+	display: inline-block;
+}
+.pagination li.active span{
+	font-size: 1.5em;
+}
+#vcode{
+	display: none;
+	width: 330px;
+	height: 500px;
+	background-color: #fff;
+	padding: 10px;
+	box-sizing: border-box;
+}
+#vcode.show{
+    position:fixed;
+    display:block;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+#vcode_title{
+	background-color: #4a90e2;
+	box-sizing: border-box;
+	width: 100%;
+	height: 80px;
+	padding: 10px;
+}
+#vcode_title>p{
+	margin: 0;
+	color: #fff;
+	font-size: 1.2em;
+}
+#vcode_content{
+	margin: 5px 0;	
+}
+#vcode_content>div{
+	padding: 0;
+	border: 0;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	position: relative;
+}
+#vcode_content #v0, #vcode_content #v3, #vcode_content #v6{
+	margin-right: 5px;
+}
+#vcode_content #v2, #vcode_content #v5, #vcode_content #v8{
+	margin-left: 5px;
+}
+#vcode_content .v{
+	width: 100px;
+	height: 100px;
+	top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+	position: absolute;
+	cursor: pointer;
+}
+#vcode_content .v.select{
+	width: 80px;
+	height: 80px;
+}
+#vcode_control{
+	width: 100%;
+	height: 80px;
+	position: relative;
+}
+#vcode_control_submit{
+	position: absolute;
+	right: 0;
+	background-color: #4a90e2;
+	font-size: 1.2em;
+	color: #fff;
+	padding: 0 30px;	
+}
+#vcode_control_submit:hover{
+	background-color: #8897ff;
+}
+#vcode_success{
+	color: #0f0;
+	margin-left: 10px;
+	font-size: 1.3em;	
+}
+#nav_right_top{
+	position: absolute;
+	right: 0;
+	width: 200px;
+	height: 30px;
+	overflow: hidden;
+}
+#nav_right_top:hover{
+	height: auto;
+	padding: 0 0 50px 50px;
+}
+#nav_right_top ul{
+	list-style: none;
+}
+#nav_right_top li{
+	margin: 0;
+	font-size: 1.3em;
+	background-color: #26a;
+	height: 30px;
+	border-radius: 8px;
+}
+#nav_right_top li:hover{
+	background-color: #26e;
+}
+#nav_right_top a{
+	text-decoration: none;
+	display: block;
+}
+#nav_right_top_lead{
+	text-align: center;
+	height: 30px;
+	font-size: 1.5em;
+	background-color: #258;
+	border-radius: 8px;
+}

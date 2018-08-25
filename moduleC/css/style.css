@@ -1,0 +1,78 @@
+body {
+	font-family: '微軟正黑體';
+	font-weight: bold;
+}
+
+.dPaint {
+	display: flex;
+	border: 3px solid black;
+	margin: 0 auto;
+	width: 60%;
+}
+
+.dBlock {
+	text-align: center;
+	margin: 10px;
+}
+
+.dBlock:nth-child(1) {
+	width: 8%;
+}
+
+.dBlock:nth-child(2) {
+	width: 60%;
+}
+
+.dBlock:nth-child(3) {
+	width: 32%;
+}
+
+.dColor, .dLine {
+	display: flex;
+}
+
+.color, .line {
+	margin: 2px;
+	width: 40px;
+	height: 40px;
+	box-sizing: border-box;
+	border: 5px solid gray;
+}
+
+.illustration {
+	display: inline-block;
+	margin: 0;
+	width: 50px;
+	height: 50px;
+	box-sizing: border-box;
+}
+
+#line {
+	margin: 5px;
+	width: 40px;
+	height: 40px;
+	box-sizing: border-box;
+	border: 1px solid gray;
+	padding: 0px;
+	text-align: center;
+}
+
+.b1 {
+	width: 90%;
+	border: 2px solid blue;
+	padding: 5px;
+	font-size: 24px;
+	color: white;
+	background-color: #66A;
+}
+
+.shape {
+	width: 52px;
+	height: 52px;
+	box-sizing: border-box;
+}
+
+#drawPad {
+	cursor: arrow;
+	border: 2px solid blue;
+}
